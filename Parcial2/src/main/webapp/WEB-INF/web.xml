@@ -10,8 +10,18 @@
   	<description></description>
   	<servlet-class>com.Kevin.Controller.ControllerMostrarInfo</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>ControllerPASO</servlet-name>
+  	<display-name>ControllerPASO</display-name>
+  	<description></description>
+  	<servlet-class>com.Kevin.Controller.ControllerPASO</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>ControllerMostrarInfo</servlet-name>
   	<url-pattern>/ControllerMostrarInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ControllerPASO</servlet-name>
+  	<url-pattern>/ControllerPASO</url-pattern>
   </servlet-mapping>
 </web-app>
